@@ -6,7 +6,7 @@
 
 Опишите модель данных, которая может лежать в основе данного приложения.
 
-Модель данных
+***Модель данных***
 
 ![Image alt](https://github.com/mamkad/Test-task-Trainee-Analyst-Designer---Financial-Information-Systems/blob/main/diagramm.PNG)
 
@@ -16,7 +16,7 @@ sql-cкрипт для создания бд: [ссылка](https://github.com/
 
 Напишите SQL-запрос, который бы возвращал самого популярного автора за год.
 
-Sql-Запрос
+***Sql-Запрос***
 
 ```sql
 select 
@@ -46,10 +46,7 @@ limit 1;
 Злостный читатель - человек, который больше всех раз просрочил сдачу книгу (
 который вернул книгу лишь спустя месяц, либо вообще её невернул
 
-Функция поиска злостоного читатеял на js
-
-Полный код программы: [ссылка](https://github.com/mamkad/Test-task-Trainee-Analyst-Designer---Financial-Information-Systems/blob/main/app.js)
-***(используется node.js и библиотека mysql для подключения к БД)***
+***Функция поиска злостоного читатеял на js***
 
 ```javascript
 function algorithm(lendingOfBooks, studentData) {
@@ -91,3 +88,7 @@ function algorithm(lendingOfBooks, studentData) {
 	return full_answer
 }
 ```
+Полный код программы: [ссылка](https://github.com/mamkad/Test-task-Trainee-Analyst-Designer---Financial-Information-Systems/blob/main/app.js)
+***(используется node.js и библиотека mysql для подключения к БД)***
+
+
