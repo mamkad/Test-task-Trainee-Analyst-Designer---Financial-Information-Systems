@@ -1,0 +1,1 @@
+# Test-task-Trainee-Analyst-Designer---Financial-Information-Systems
