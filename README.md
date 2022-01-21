@@ -16,6 +16,8 @@ sql-cкрипт для создания бд: [ссылка](https://github.com/
 
 Напишите SQL-запрос, который бы возвращал самого популярного автора за год.
 
+Sql-Запрос
+
 ```sql
 select 
 	lendingofbooks.exemplar_of_book_id, book.book_name, authors.first_name, authors.last_name 
@@ -44,7 +46,12 @@ limit 1;
 Злостный читатель - человек, который больше всех раз просрочил сдачу книгу (
 который вернул книгу лишь спустя месяц, либо вообще её невернул
 
-```sql
+Функция поиска злостоного читатеял на js
+
+Полный код программы: [ссылка](https://github.com/mamkad/Test-task-Trainee-Analyst-Designer---Financial-Information-Systems/blob/main/app.js)
+***(используется node.js и библиотека mysql для подключения к БД)***
+
+```javascript
 function algorithm(lendingOfBooks, studentData) {
 
 	const students = new Map();
@@ -84,6 +91,3 @@ function algorithm(lendingOfBooks, studentData) {
 	return full_answer
 }
 ```
-
-Полный код программы: [ссылка](https://github.com/mamkad/Test-task-Trainee-Analyst-Designer---Financial-Information-Systems/blob/main/app.js)
-***(используется node.js и библиотека mysql для подключения к БД)***
