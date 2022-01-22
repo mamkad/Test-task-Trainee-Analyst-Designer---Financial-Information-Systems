@@ -48,6 +48,7 @@ async function getDataFromDB() {
 	return [lendingOfBooks, studentData]
 }
 
+// Разница в месяцах между датами 
 function monthDiff(d1, d2) {
     let months;
     months = (d2.getFullYear() - d1.getFullYear()) * 12;
@@ -56,8 +57,7 @@ function monthDiff(d1, d2) {
     return months <= 0 ? 0 : months;
 }
 
-// node.js 
-// npm install mysql
+// Алгоритм задания
 function algorithm(lendingOfBooks, studentData) {
 
 	const students = new Map();
@@ -103,5 +103,5 @@ async function main() {
 	full_answer = algorithm(tablesFromDB[0], tablesFromDB[1])
 	console.log(full_answer)
 }
-
+// Вызов main
 main()
